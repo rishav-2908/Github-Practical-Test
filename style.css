@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.navbartitle {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    padding: 10px;
+}
+
+.title {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+.linkContainer {
+    display: flex;
+    gap: 10px;
+    padding-right: 100px;
+}
+
+.links {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+#linkForNavBar {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+#linkForNavBar:hover {
+    background-color: #555;
+}
+
+#loginBtn {
+    background-color: yellow;
+    color: #000;
+    border: 2px solid red;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 100px;
+}
